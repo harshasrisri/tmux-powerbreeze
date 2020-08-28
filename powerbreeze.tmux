@@ -10,8 +10,8 @@ tmux set -g window-status-separator " "                      # single space wind
 tmux set -g status-left-length 48
 tmux set -g status-right-length 48
 
-_tmux_win_stat_fmt='#[fg=colour237,bg=black]#[fg=green,bg=black]#{?pane_synchronized, *,} #I: #W #{?pane_synchronized,* ,}#[fg=colour237,bg=black]'
-_tmux_win_stat_curr_fmt='#[fg=green,bg=colour237]#[fg=black,bg=green] #{?pane_synchronized,* ,}#I: #W#{?pane_synchronized, *,} #[fg=green,bg=colour237]'
+_tmux_win_stat_fmt='#[fg=colour237,bg=black]#[fg=green,bg=black]#{?pane_synchronized, *,} #I  #W #{?pane_synchronized,* ,}#[fg=colour237,bg=black]'
+_tmux_win_stat_curr_fmt='#[fg=green,bg=colour237]#[fg=black,bg=green] #{?pane_synchronized,* ,}#I  #W#{?pane_synchronized, *,} #[fg=green,bg=colour237]'
 _tmux_status_left='#[fg=colour237,bg=red] #H #[fg=red,bg=colour237] #[fg=colour237,bg=red] #S #[fg=red,bg=colour237] #[fg=colour237,bg=red] #I:#P #[fg=red,bg=colour237]'
 _tmux_status_right='#[fg=blue,bg=colour237]#[fg=colour237,bg=blue] %H:%M #[fg=colour237,bg=blue]#[fg=blue,bg=colour237] #[fg=colour237,bg=blue] %a %d %b #[fg=colour237,bg=blue]'
 
