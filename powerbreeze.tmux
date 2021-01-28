@@ -19,3 +19,4 @@ tmux set -g status-left "$_tmux_status_left"                                    
 tmux set -g status-right "$_tmux_status_right"                                         # right status style and content : time and date
 tmux set-window-option -g window-status-format "$_tmux_win_stat_fmt"                   # inactive window list style and content
 tmux set-window-option -g window-status-current-format "$_tmux_win_stat_curr_fmt"      # active window list style and content
+tmux set -g pane-active-border-style 'fg=red'                                          # active window border is set to a red line
